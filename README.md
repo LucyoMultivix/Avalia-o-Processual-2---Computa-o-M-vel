@@ -65,6 +65,7 @@ As dependencies do pubspec.yaml foram alteradas para a Comunity Edition do Hive 
 Meu Deus professor, acho que nunca vimos tanto Bug acontecer em um mesmo projeto. Então é isso que chamam de "development hell", consertavamos uma coisa, e outra dava bug. Da parte 1 para a 2 foi um salto enorme kakaka. Muita coisa foi adicionada, interface, crud completo, tivemos que alterar dependencies, mexer nos models, usar o build runner sabe-se lá quantas vezes para gerar novos g.dart para os models, adicionar uma nova camada para providers, consertar bugs de persistencia que só existem na versão web do Hive. E isso porque Hive nos pareceu a melhor opção, fico imaginando como teria sido se tivessemos usado uma biblioteca que não fosse NoSQL, não quero nem pensar nisso. É rapaz, foi muito estressante, ainda mais nessa época de TCC, todo mundo correndo contra o tempo. Mas acho que ver tudo funcionando de forma responsiva e bonita, com interface funcional e CRUD 100% rodando através dela, é muito gratificante. O conhecimento do flutter e seus pormenores cresceu, e isso foi muito interessante. A sensação era de estar lutando contra um boss no Dark Souls, apanhando muito, e dando pouco dano kkkk. Mas concluindo, acredito que foi um trabalho muito proveitoso para o grupo. 🏆
 
 🔥 Parte 3: 
+A parte 3 é inexistente. Por que? Bom, era para escrever alguns testes no CRUD e Widget, simples né? Não, nenhuma das enezimas formas que tentamos para codar um teste funcionou. NENHUMA SEQUER! Nada era compativel com o Hive, ou Hive CE. Mocks não funcionavam. Nenhuma dependencia resolvia. Era tentar algo e aparecer um bug de 400 linhas, ai voce tenta resolver e buga outra coisa com 500 linhas. Aí quando você vê, está andando em circulos. Frustrante ficar tentando por 8 horas seguidas e não conseguir rodar 1 teste sem bugar. Se eu soubesse que daria tanto conflito eu teria feito o codigo em cima do SQFlite ao invés do Hive. "Ah, usa Hive, é mais simples", olha só o que a simplicidade custou. Bom, é isso, sinto muito professor, não rolou.
 
 
 ## <center>⭐Configuração em Comum entre as Partes⭐</center>
@@ -287,3 +288,4 @@ Abra o CMD na pasta do seu projeto e rode:
 
 ### <center>✨✨✨PARTE 3✨✨✨</center>
 ⚠️**OBS.: ESSE PROCEDIMENTO SÓ FUNCIONA PARA A PARTE 3, OU SEJA, SE QUISER TESTAR AS OUTRAS PARTES, DEVE APAGAR AS MUDANÇAS FEITAS NA PASTA LIB, E SEGUIR A CONFIGURAÇÃO DA PARTE QUE QUER EXECUTAR.**⚠️
+
